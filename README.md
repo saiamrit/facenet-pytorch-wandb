@@ -1,7 +1,7 @@
-# facenet-pytorch-wandb
+# Facenet Pytorch wandb
 
 
-A PyTorch implementation  of the [FaceNet](https://arxiv.org/abs/1503.03832) [[1](#references)] paper for training a facial recognition model using Triplet Loss. Training is done on the [CelebA HQ](https://github.com/switchablenorms/CelebAMask-HQ) [[4](#references)] dataset containing around 30k face images.
+A PyTorch implementation  of the [FaceNet](https://arxiv.org/abs/1503.03832) [[1](#references)] paper for training a facial recognition model using Triplet Loss. Training is done on the [CelebA HQ](https://github.com/switchablenorms/CelebAMask-HQ) [[4](#references)] dataset containing around 30k face images. All logging is on weights and biases.
 Evaluation is done on the same dataset.
 
 The datasets face images were tightly-cropped by using the MTCNN Face Detection model in David Sandberg's [facenet](https://github.com/davidsandberg/facenet) repository. For more information, and download links for the __cropped__ datasets, please check the [Training and Testing Datasets section](#training-and-testing-datasets).
