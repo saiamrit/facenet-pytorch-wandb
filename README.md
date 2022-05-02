@@ -19,9 +19,12 @@ Coming Soon !!
 
 
 ### Pre-trained Model LFW Test Metrics
-![accuracy](pretrained_model_stats_safe_to_delete/lfw_accuracies_resnet34_epoch_90_triplet.png "LFW Accuracies")
+![accuracy](https://github.com/saiamrit/facenet-pytorch-wandb/blob/main/images/train%20loss.png)
+![accuracy](https://github.com/saiamrit/facenet-pytorch-wandb/blob/main/images/train_loss.png)
+![accuracy](https://github.com/saiamrit/facenet-pytorch-wandb/blob/main/images/val_acc.png)
+![accuracy](https://github.com/saiamrit/facenet-pytorch-wandb/blob/main/images/val_loss.png)
 
-![roc](pretrained_model_stats_safe_to_delete/roc_resnet34_epoch_88_triplet.png "ROC Curve")
+![roc](https://github.com/saiamrit/facenet-pytorch-wandb/blob/main/images/roc.png "ROC Curve")
 
 | Architecture | Loss | Triplet loss selection method | Image Size | Embedding dimension | Margin | Batch Size | Number of identities per triplet batch | Learning Rate | Training Epochs | Number of training iterations per epoch | Optimizer | LFW Accuracy| LFW Precision| LFW Recall | ROC Area Under Curve | TAR (True Acceptance Rate) @ FAR (False Acceptance Rate) = 1e-3 | Best LFW Euclidean distance threshold
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
